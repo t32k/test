@@ -1,0 +1,40 @@
+body {
+	padding: 2em;
+	background: #4d4d4d url(../images/bg-black.png) repeat;
+	color: white;
+}
+a {
+	display: block;
+	color: inherit;
+	text-align: center;
+	text-decoration: none;
+}
+.btn {
+	border: 1px #c7ac2c solid;
+	font-weight: bold;
+	line-height: 44px;
+}
+.btn-black {
+	border-width: 0px 18px;
+	border-style: solid;
+	-webkit-border-image: url(../images/btn-black.png) 0 18 stretch;
+	border-image: url(../images/btn-black.png) 0 18 fill stretch;
+	/*background: #363636;*/
+	color: #dbd5c0;
+}
+.btn-yellow {
+	border-width: 0px 18px;
+	border-style: solid;
+	-webkit-border-image: url(../images/btn-yellow.png) 0 18 stretch;
+	border-image: url(../images/btn-yellow.png) 0 18 fill stretch;
+	/*background: #fffd48;*/
+	color: black;
+}
+.btn-red {
+	border-width: 0px 18px;
+	border-style: solid;
+	-webkit-border-image: url(../images/btn-red.png) 0 18 stretch;
+	border-image: url(../images/btn-red.png) 0 18 fill stretch;
+	/*background: #b50000;*/
+	color: #ffde75;
+}
