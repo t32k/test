@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Include DataURI Source</title>
+	<title>Defer : Include DataURI Source</title>
 	<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
 	<link rel="stylesheet" href="css/app.css">
 </head>
@@ -21,11 +21,13 @@
 
 	<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
 	<script>
-		var css = document.createElement('link');
-				css.rel = 'stylesheet';
-				css.href = 'css/base64.css';
-		var script = document.getElementsByTagName('script')[0];
-				script.parentNode.insertBefore(css, script);
+	(function(d){
+		var c = d.createElement('link');
+				c.rel = 'stylesheet';
+				c.href = 'css/base64.css';
+		var s = d.getElementsByTagName('script')[0];
+				s.parentNode.insertBefore(c, s);
+	})(document);
 	</script>
 </body>
 </html>
