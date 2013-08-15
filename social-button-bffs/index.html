@@ -13,46 +13,17 @@
   <meta property="og:url" content="http://t32k.github.io/test/social-button-bffs/">
   <meta property="og:image" content="http://t32k.github.io/test/social-button-bffs/img/og.png">
   <style>
-    .group:before,
-    .group:after {
-      content: "";
-      display: table;
-    }
-    .group:after {
-      clear: both;
-    }
-    .group {
-      *zoom: 1;
-    }
-    body {
-      padding: 1em 3em;
-      color: #333;
-      text-shadow: 0 2px 0 #fff;
-    }
-    h2 {
-      margin: 2em 0 1em;
-    }
-    p {
-      margin: 1em;
-    }
-    ul {
-      list-style: none;
-      padding: 0 1em;
-    }
-    li {
-      float: left;
-      margin-right: 15px;
-    }
-    /* Adjust layout */
-    .std .twitter-share-button {
-      width: 100px !important;
-    }
-    .std #___plusone_0 {
-      width: 60px !important;
-    }
-    .bbl .hatena {
-      margin-top: 9px;
-    }
+    .group:before,.group:after{content:"";display:table;}
+    .group:after{clear:both;}
+    .group{zoom:1;}
+    body{color:#333;text-shadow:0 2px 0 #fff;padding:1em 3em;}
+    h2{margin:2em 0 1em;}
+    p{margin:1em;}
+    ul{list-style:none;padding:0 1em;}
+    li{float:left;margin-right:15px;}
+    .std .twitter-share-button{width:100px!important;}
+    .std #___plusone_0{width:60px!important;}
+    .bbl .hatena{margin-top:9px;}
   </style>
 </head>
 
@@ -107,12 +78,12 @@
       // for Google +
       window.___gcfg = {lang: 'ja'};
       var js,
-        　fjs = d.getElementsByTagName(s)[0],
-        　load = function(url, id) {
-                if (d.getElementById(id)) {return;}
-                js = d.createElement(s); js.src = url; js.id = id;
-                fjs.parentNode.insertBefore(js, fjs);
-              };
+          fjs = d.getElementsByTagName(s)[0],
+          load = function(url, id) {
+            if (d.getElementById(id)) {return;}
+            js = d.createElement(s); js.src = url; js.id = id;
+            fjs.parentNode.insertBefore(js, fjs);
+          };
       load('//connect.facebook.net/ja_JP/all.js#xfbml=1&appId=212646065416408', 'fbjssdk');
       load('//platform.twitter.com/widgets.js', 'tweetjs');
       load('https://apis.google.com/js/plusone.js', 'gplus1js');
