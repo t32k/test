@@ -64,11 +64,11 @@
   </ul>
 
   <!-- //////////////////////////////////////////////////////////////////////////////// -->
-  <script>
+  <script id="gaq">
     var _gaq=[['_setAccount','UA-2317436-26'],['_trackPageview']];
-    (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+    (function(d){var g=d.createElement('script'),s=d.getElementById('gaq');g.async=1;
     g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
-    s.parentNode.insertBefore(g,s)}(document,'script'));
+    s.parentNode.insertBefore(g,s)}(document));
   </script>
 
   <!-- //////////////////////////////////////////////////////////////////////////////// -->

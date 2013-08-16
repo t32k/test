@@ -1,0 +1,76 @@
+html,body,h1,section,p,ul,li {
+	margin: 0;
+	padding: 0;
+}
+header {
+	background: #45484d;
+	background: -moz-linear-gradient(top,  #45484d 0%, #000000 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#45484d), color-stop(100%,#000000));
+	background: -webkit-linear-gradient(top,  #45484d 0%,#000000 100%);
+	background: -ms-linear-gradient(top,  #45484d 0%,#000000 100%);
+	background: linear-gradient(to bottom,  #45484d 0%,#000000 100%);
+	color: #fff;
+	text-align: center;
+}
+footer {
+	padding: 2em;
+	border-top: 1px #000 solid;
+	background: #f2f2f2;
+	text-align: center;
+}
+section {
+background: #fff9e5;
+}
+ul {
+	margin: 0 0 0 10px;
+	padding: 0;
+	list-style: none;
+}
+li {
+	float: left;
+	padding: 10px;
+	width: 50px;
+	height: 50px;
+}
+i {
+	background: url(../img/sprites.png) no-repeat top left;
+	display: block;
+}
+.ico1{ width: 36px; height: 48px; background-position: 0 0; } 
+.ico10{ width: 46px; height: 50px; background-position: 0 -58px; } 
+.ico11{ width: 53px; height: 52px; background-position: 0 -118px; } 
+.ico12{ width: 48px; height: 46px; background-position: 0 -180px; } 
+.ico13{ width: 50px; height: 50px; background-position: 0 -236px; } 
+.ico14{ width: 54px; height: 50px; background-position: 0 -296px; } 
+.ico15{ width: 38px; height: 46px; background-position: 0 -356px; } 
+.ico16{ width: 48px; height: 48px; background-position: 0 -412px; } 
+.ico17{ width: 44px; height: 45px; background-position: 0 -470px; } 
+.ico18{ width: 39px; height: 43px; background-position: 0 -525px; } 
+.ico19{ width: 43px; height: 43px; background-position: 0 -578px; } 
+.ico2{ width: 51px; height: 44px; background-position: 0 -631px; } 
+.ico20{ width: 46px; height: 42px; background-position: 0 -685px; } 
+.ico21{ width: 51px; height: 50px; background-position: 0 -737px; } 
+.ico22{ width: 34px; height: 52px; background-position: 0 -797px; } 
+.ico23{ width: 35px; height: 53px; background-position: 0 -859px; } 
+.ico24{ width: 40px; height: 46px; background-position: 0 -922px; } 
+.ico25{ width: 64px; height: 47px; background-position: 0 -978px; } 
+.ico26{ width: 47px; height: 46px; background-position: 0 -1035px; } 
+.ico27{ width: 55px; height: 43px; background-position: 0 -1091px; } 
+.ico28{ width: 63px; height: 41px; background-position: 0 -1144px; } 
+.ico29{ width: 48px; height: 42px; background-position: 0 -1195px; } 
+.ico3{ width: 50px; height: 49px; background-position: 0 -1247px; } 
+.ico30{ width: 47px; height: 41px; background-position: 0 -1306px; } 
+.ico4{ width: 40px; height: 49px; background-position: 0 -1357px; } 
+.ico5{ width: 52px; height: 52px; background-position: 0 -1416px; } 
+.ico6{ width: 59px; height: 43px; background-position: 0 -1478px; } 
+.ico7{ width: 51px; height: 49px; background-position: 0 -1531px; } 
+.ico8{ width: 42px; height: 51px; background-position: 0 -1590px; } 
+.ico9{ width: 44px; height: 46px; background-position: 0 -1651px; }
+.cf:before,
+.cf:after {
+  content: " ";
+  display: table;
+}
+.cf:after {
+  clear: both;
+}
